@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cat Breeds & Prices</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fdf6ec;
+    color: #333;
+  }
+  header {
+    background: #ff9f68;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  header p {
+    font-size: 1.1rem;
+  }
+  .container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+  }
+  .card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  .card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  .card-content {
+    padding: 15px;
+  }
+  .card-content h3 {
+    margin-bottom: 8px;
+    color: #ff7f42;
+  }
+  .card-content p {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  .price {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: #999;
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Cat Breeds & Prices</h1>
+  <p>Find your perfect feline companion and see what they typically cost.</p>
+</header>
+
+<div class="container">
+  <div class="grid">
+
+    <div class="card">
+      <img src="https://placekitten.com/400/300" alt="Persian cat">
+      <div class="card-content">
+        <h3>Persian</h3>
+        <p>Long-haired and calm, known for their sweet flat faces.</p>
+        <p class="price">$800 - $2,500</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://placekitten.com/401/300" alt="Maine Coon cat">
+      <div class="card-content">
+        <h3>Maine Coon</h3>
+        <p>One of the largest breeds, friendly and dog-like in nature.</p>
+        <p class="price">$1,000 - $3,000</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://placekitten.com/402/300" alt="Siamese cat">
+      <div class="card-content">
+        <h3>Siamese</h3>
+        <p>Vocal and social, with striking blue eyes and short coats.</p>
+        <p class="price">$400 - $1,200</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://placekitten.com/403/300" alt="Bengal cat">
+      <div class="card-content">
+        <h3>Bengal</h3>
+        <p>Wild-looking spotted coat with a playful, energetic personality.</p>
+        <p class="price">$1,500 - $5,000</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://placekitten.com/404/300" alt="British Shorthair cat">
+      <div class="card-content">
+        <h3>British Shorthair</h3>
+        <p>Round-faced and easygoing, with a dense plush coat.</p>
+        <p class="price">$1,000 - $2,000</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://placekitten.com/405/300" alt="Ragdoll cat">
+      <div class="card-content">
+        <h3>Ragdoll</h3>
+        <p>Gentle giants that go limp with relaxation when held.</p>
+        <p class="price">$800 - $2,000</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2026 Cat Breeds & Prices. All prices are estimates.</p>
+</footer>
+
+</body>
+</html>
